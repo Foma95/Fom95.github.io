@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+body { 
+	 background-position: top;
+	 background-attachment: fixed; 
+	 background-image: url(fon.jpg); 									 
+	 font: 18/20px Arial;    
+	 background-repeat:no-repeat;
+	 background-position:right top;  
+	 width:auto;
+	 height:auto;
+	 -moz-background-size:cover; /* Gecko 1.9.2 (Firefox 3.6) */
+	 -o-background-size:102% auto; /* Opera 9.5 */
+	 -webkit-background-size:102% auto; /* Safari 3.0 */
+	 -khtml-background-size:cover; /* Konqueror 3.5.4 */
+	 background-size:cover; /* CSS3 */
+    }
+	
+.zag{
+     z-index: 999;
+     font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 border-style: none;
+     height: auto;
+     font-size:50px;	  
+	 padding: 15px;
+	 width: 50%;
+	 margin: auto;
+	 text-align: center;
+	 background: rgba(255,255,255,0.9);
+    }
+	
+.topbutton {
+     background: rgba(255,255,255,0.3);
+     width:100px;
+     text-decoration: none;
+	 text-align:center;
+     padding:10px;
+	 position:fixed;
+	 bottom:5px;
+	 left:5px;
+	 cursor:pointer;
+	 color:#333;
+	 font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size:12px;
+    }
+	
+.topbutton:hover {
+	 background:  rgba(158,158,131,0.9);
+	 color: #fff;
+    }
+
+.footer{
+	 height :20px;
+	 font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 clear:both;
+	 font-size:20px;
+	 color:white;
+	 float:right;
+	 bottom:5px;
+    }
+
+.sh{
+     display:none;
+	}
+
+.col{
+	 height:auto; 
+	 background:rgba(255,255,255,0.9);
+	 font-size:20px; padding: 30px;
+	 text-indent: 1.5em;
+	 font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 width: 75%; /* Ширина колонок */
+	 /* Создаем колонки */ 
+	 margin:7%  auto;
+    }
+   
+.col img{
+     max-width:400px; 
+	 margin: 10px;  
+	 float: right;
+    }
+   
+  
+iframe{ 
+	 margin: 5%;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	}
